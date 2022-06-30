@@ -10,6 +10,7 @@ public class App
 {
     public static void main( String[] args )
     {
+        //new edit1
         System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe");
         WebDriver driver=new ChromeDriver();
         driver.get("https://www.google.com/");
@@ -19,6 +20,5 @@ public class App
         driverElement.sendKeys(Keys.ENTER);
         
         //driver.findElement(By.xpath("//input[@class='gNO89b']")).click();
-        //new edit
     }
 }
