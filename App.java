@@ -15,9 +15,10 @@ public class App
         driver.get("https://www.google.com/");
         driver.manage().window().maximize();
         WebElement driverElement = driver.findElement(By.xpath("//input[@class='gLFyf gsfi']"));
-        driverElement.sendKeys("GitHub");
+        driverElement.sendKeys("Selenium");
         driverElement.sendKeys(Keys.ENTER);
         
         //driver.findElement(By.xpath("//input[@class='gNO89b']")).click();
+        //new edit1
     }
 }
