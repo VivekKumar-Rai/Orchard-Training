@@ -10,11 +10,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class amazon {
-<<<<<<< HEAD
         //edit2
-=======
         //edit1
->>>>>>> 378db80af9a9076e47c21b2b915b82fc96daf9ff
 
 	@SuppressWarnings("unused")
 	public static void main(String[] args) {
